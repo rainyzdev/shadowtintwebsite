@@ -1,6 +1,6 @@
 "use client";
 
-import { MapPin, Clock, Phone, Mail, Car, Shield, Sun, Droplets } from "lucide-react";
+import { MapPin, Clock, Phone, Mail, Car, Shield, Sun } from "lucide-react";
 
 export default function Home() {
   return (
@@ -20,11 +20,6 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0">
-          <img
-            src="https://images.unsplash.com/photo-1619927228571-9a8c205730dd?auto=format&fit=crop&q=80"
-            alt="Tinted car background"
-            className="object-cover w-full h-full"
-          />
           <div className="absolute inset-0 bg-gradient-to-b from-[#1a1a1a]/95 via-[#1a1a1a]/80 to-[#1a1a1a]/95"></div>
           {/* Accent gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-tr from-red-900/20 via-transparent to-blue-900/20"></div>
@@ -36,7 +31,7 @@ export default function Home() {
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4">
           <div className="mb-8">
             <Shield className="w-24 h-24 text-red-600 mx-auto mb-6" />
-            <h1 className="text-7xl font-bold mb-6 text-white">Welcome to<br />Shadow Tint</h1>
+            <h1 className="text-5xl font-bold mb-6 text-white">Welcome to<br />Shadow Tint</h1>
             <p className="text-2xl text-gray-200 mb-12 max-w-2xl mx-auto">
               Where luxury meets protection. Transform your vehicle with premium window tinting services.
             </p>
@@ -151,7 +146,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-black text-white py-8">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <p>© 2024 Shadow Tint. All rights reserved.</p>
+          <p>© 2025 Shadow Tint. All rights reserved.</p>
         </div>
       </footer>
     </main>
