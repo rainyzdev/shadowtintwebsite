@@ -112,7 +112,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center">
                   <Phone className="w-6 h-6 text-red-600 mr-4" />
-                  <p>(610)-743-3088</p>
+                  <p>(610)-743-3088<br/>(484)-256-2662</p>
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-6 h-6 text-red-600 mr-4" />
@@ -146,7 +146,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-black text-white py-8">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <p>© 2025 Shadow Tint. All rights reserved.</p>
+          <p>© 2025 Shadow Tint. All rights reserved. | Website By <a href="https://mehdialloui.com">Mehdi Alloui</a></p>
         </div>
       </footer>
     </main>
