@@ -116,7 +116,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-6 h-6 text-red-600 mr-4" />
-                  <p>info@shadowtint.com</p>
+                  <p>shadowtint637@gmail.com</p>
                 </div>
                 <div className="flex items-start">
                   <Clock className="w-6 h-6 text-red-600 mr-4 mt-1" />
